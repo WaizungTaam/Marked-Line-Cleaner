@@ -2,7 +2,7 @@ Marked-Line Cleaner
 ===================
 
 Introduction
-============
+------------
 This is a library that cleans the marked-lines in text files.
 
 For example, if the mark is set to be "I AM A MARK", then
@@ -14,7 +14,7 @@ Hello! I AM NOT A MARK.  # This line will not be removed.
 ```
 
 Demos
-=====
+-----
 `$ make`
 
 - The `line_cleaner_test_argv` is the version that passes file names by command lines.
@@ -24,7 +24,7 @@ Demos
 Compile test passed on Ubuntu 14.04.3 LTS, g++ 4.8.4.
 
 Further Improvements
-====================
+--------------------
 - Use multi-threading to accelerate the process
 - Deal with the possible exceptions in file operations properly
 - Do test on other operating systems
