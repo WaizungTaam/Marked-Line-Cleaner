@@ -3,13 +3,13 @@ Marked-Line Cleaner
 
 Introduction
 ============
-This is a cleaner that cleans the marked-lines in text files.
+This is a library that cleans the marked-lines in text files.
 
 For example, if the mark is set to be "I AM A MARK", then
 this cleaner will clean all the lines that contain this mark.
 
 ```
-Hello! I AM A MARK.  # This line will be removed.
+Hello! I AM A MARK.      # This line will be removed.
 Hello! I AM NOT A MARK.  # This line will not be removed.
 ```
 
